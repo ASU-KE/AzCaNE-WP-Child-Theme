@@ -1,0 +1,11 @@
+#wrapper-footer-columns {
+    background: linear-gradient(45deg, #ED7440, #B96181);
+
+    #footer-columns .flex-footer .accordion-item {
+        background: unset;
+
+        .accordion-header {
+            background: unset;
+        }
+    }
+}
