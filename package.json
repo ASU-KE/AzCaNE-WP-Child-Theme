@@ -17,13 +17,12 @@
     "bootstrap",
     "underscores"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@asu/unity-bootstrap-theme": "^1.27.0",
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "autoprefixer": "^10.4.20",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.8",
     "browser-sync": "^3.0.3",
     "del": "^7.1.0",
     "gulp": "^5.0.0",
@@ -40,7 +39,7 @@
     "popper.js": "^1.16.1",
     "sass": "^1.82.0"
   },
-    "volta": {
+  "volta": {
     "node": "14.21.3",
     "npm": "9.5.0"
   },
