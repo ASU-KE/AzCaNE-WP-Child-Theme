@@ -1,7 +1,7 @@
 /* Child theme JavaScript */
 // Create a new element to prepend
 const newElement = document.createElement('h1');
-newElement.textContent = 'AzCaNE ';
+newElement.textContent = 'AzCaNE'+ '\u00A0';
 document.addEventListener('DOMContentLoaded', function() {
     waitForElement('.navbar .title').then((element) => {
         element.prepend(newElement)
