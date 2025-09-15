@@ -1,7 +1,10 @@
 /* Child theme JavaScript */
+// Create a new element to prepend
+const newElement = document.createElement('h1');
+newElement.textContent = 'AzCaNE';
 document.addEventListener('DOMContentLoaded', function() {
     waitForElement('.navbar .title').then((element) => {
-        element.prepend('<h1 id="site-title">AzCaNE</h1>')
+        element.prepend(newElement)
     })
 })
 
