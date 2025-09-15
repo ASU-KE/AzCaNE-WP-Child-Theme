@@ -1,4 +1,7 @@
-#asuHeader { 
+#asuHeader {
+    .navbar-brand {
+        display: none;
+    } 
     .header-main .navbar {
     display: flex;
     align-items: end;
