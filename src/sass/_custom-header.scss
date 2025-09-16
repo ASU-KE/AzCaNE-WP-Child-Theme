@@ -1,4 +1,7 @@
 #asuHeader {
+    a.nav-item-selected::after {
+        background-image: linear-gradient(to right, transparent 0.5%, #ED7440 0.5%);
+    }
     .navbar-brand {
         display: none;
     } 
