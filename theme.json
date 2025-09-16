@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "azcane-red",
+					"color": "#AA271F",
+					"name": "AZ Cane Red"
+				},
+				{
+					"slug": "azcane-orange",
+					"color": "#ED7440",
+					"name": "AZ Cane Orange"
+				},
+				{
+					"slug": "azcane-yellow",
+					"color": "#E9C85D",
+					"name": "AZ Cane Yellow"
+				},
+				{
+					"slug": "azcane-mauve",
+					"color": "#A46362",
+					"name": "AZ Cane Mauve"
+				},
+				{
+					"slug": "azcane-purple",
+					"color": "#B96181",
+					"name": "AZ Cane Purple"
+				}
+			]
+		}
+	}
+}
