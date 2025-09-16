@@ -30,14 +30,16 @@
 
     #footer-columns 
         .row {
-            div:not(:first-child) {
-                color: #191919;
-            }
             .flex-footer .accordion-item {
                 background: unset;
-            }
-            .accordion-header, .accordion-body {
+
+                .accordion-header, .accordion-body {
                 background: unset;
+
+                a {
+                    color: #191919;
+                }
+            }
             }
         }
     }
