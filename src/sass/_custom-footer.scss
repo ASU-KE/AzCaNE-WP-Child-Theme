@@ -28,11 +28,16 @@
 #wrapper-footer-columns {
     background: linear-gradient(45deg, #ED7440, #B96181);
 
-    #footer-columns .flex-footer .accordion-item {
-        background: unset;
-
-        .accordion-header, .accordion-body {
-            background: unset;
+    #footer-columns 
+        .row {
+            div:not(:first-child) {
+                color: #191919;
+            }
+            .flex-footer .accordion-item {
+                background: unset;
+            }
+            .accordion-header, .accordion-body {
+                background: unset;
+            }
         }
     }
-}
