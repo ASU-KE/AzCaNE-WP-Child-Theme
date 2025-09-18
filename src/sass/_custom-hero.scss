@@ -1,0 +1,9 @@
+div.uds-hero {
+    header {
+        h1 {
+            @media (min-width: 993px) {
+                max-width: 1200px;
+            }
+        }
+    }
+}
