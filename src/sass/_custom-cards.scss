@@ -2,12 +2,15 @@
     border-top: .5rem solid #B96181
 }
 .card.card-story {
-    .card-header, .card-link {
+    .card-header, .card-link, .card-body, img {
         transition: .5s cubic-bezier(.19,1,.19,1);
     }
     &:hover {
-        .card-header, .card-link {
+        .card-header, .card-link, .card-body {
             transform: translateY(-32px);
+        }
+        img {
+            transform: scale(1.05);
         }
     }
 }
