@@ -5,7 +5,7 @@
     .card-header, .card-link {
         transition: .5s cubic-bezier(.19,1,.19,1);
     }
-    :hover {
+    &:hover {
         .card-header, .card-link {
             transform: translateY(-32px);
         }
