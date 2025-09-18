@@ -1,7 +1,10 @@
 .card-ranking .info-layer {
     border-top: .5rem solid #B96181
 }
+
 .card.card-story {
+    overflow: hidden;
+
     .card-header, .card-link, .card-body, img {
         transition: .5s cubic-bezier(.19,1,.19,1);
     }
