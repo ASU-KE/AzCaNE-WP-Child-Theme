@@ -1,7 +1,8 @@
+//ranking card
 .card-ranking .info-layer {
     border-top: .5rem solid #B96181
 }
-
+//story card
 .card.card-story {
     overflow: hidden;
 
@@ -15,5 +16,11 @@
         img {
             transform: scale(1.05);
         }
+    }
+}
+//img overlap card
+.uds-image-overlap {
+    &:after {
+        background-color: #ED7440;
     }
 }
