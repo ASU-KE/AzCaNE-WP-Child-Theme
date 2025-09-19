@@ -20,6 +20,9 @@
 }
 //img overlap card
 .uds-image-overlap {
+    &:before {
+        background-color: #ED7440;
+    }
     &:after {
         background-color: #ED7440;
     }
