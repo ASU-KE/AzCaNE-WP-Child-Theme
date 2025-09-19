@@ -17,31 +17,20 @@
                 .title {
                     display: flex;
                     align-items: center;
+                    margin: 5px;
 
                     .title-subunit-name {
+                        font-size: 1rem;
+                        display: block;
+                        width: 200px;
+                        text-transform: uppercase;
+                        font-weight: 300;
+                        border-left: 8px solid #F3763E;
+                        padding-left: 10px;
                         background-image: linear-gradient(to right, transparent 51%, #f3763e 51%, 95%, transparent)
                     }
                 }
             }
         }
-    }
-
-    @media (min-width: 993px) {
-        .header-main {
-            .navbar {
-                .title {
-                    margin: 5px;
-                }
-                .title-subunit-name {
-                    font-size: 1rem;
-                    display: block;
-                    width: 200px;
-                    text-transform: uppercase;
-                    font-weight: 300;
-                    border-left: 8px solid #F3763E;
-                    padding-left: 10px;
-                }
-            }
-        }   
     }
 }
