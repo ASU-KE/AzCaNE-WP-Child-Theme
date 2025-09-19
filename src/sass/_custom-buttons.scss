@@ -6,13 +6,11 @@
         transform: scale(1.05);
     }
 }
-.btn {
-    .btn-maroon {
-        background-color: #AA271F;
-        border-color: #AA271F;
-    }
-    .btn-gold {
-        background-color: #E9C85D;
-        border-color: #E9C85D;
-    }
+.btn.btn-gold {
+    background-color: #E9C85D;
+    border-color: #E9C85D;
+}
+.btn.btn-maroon {
+    background-color: #AA271F;
+    border-color: #AA271F;
 }
