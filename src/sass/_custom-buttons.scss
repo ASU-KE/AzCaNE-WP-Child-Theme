@@ -1,4 +1,8 @@
-.uds-button .btn.btn-maroon, #gform_submit_button_1 {
+.uds-button .btn.btn-maroon, .gform_wrapper .gform_footer .gform_button, .gform_wrapper .gform_page_footer .gform_next_button {
     background-color: #AA271F;
     border-color: #AA271F;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
