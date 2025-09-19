@@ -17,6 +17,10 @@
                 .title {
                     display: flex;
                     align-items: center;
+
+                    .title-subunit-name {
+                        background-image: linear-gradient(to right, transparent 51%, #f3763e 51%, 95%, transparent)
+                    }
                 }
             }
         }
