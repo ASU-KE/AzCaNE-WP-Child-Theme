@@ -1,6 +1,9 @@
 div.uds-hero {
     header {
         h1 {
+            span.text-white {
+                margin-left: 0;
+            }
             @media (min-width: 993px) {
                 max-width: 1200px;
                 margin: 0;
