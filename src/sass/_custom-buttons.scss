@@ -1,6 +1,7 @@
 .uds-button .btn.btn-maroon, .gform_wrapper .gform_footer input[type="submit"].gform_button, .gform_wrapper .gform_page_footer input[type="submit"].gform_next_button {
     background-color: #AA271F;
     border-color: #AA271F;
+    padding: 1rem 2rem;
 
     &:hover {
         transform: scale(1.05);
@@ -13,7 +14,4 @@
 .btn.btn-maroon {
     background-color: #AA271F;
     border-color: #AA271F;
-}
-.button.gform_button {
-    padding: 1rem 2rem;
 }
