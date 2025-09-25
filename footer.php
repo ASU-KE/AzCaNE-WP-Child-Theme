@@ -16,11 +16,8 @@ defined( 'ABSPATH' ) || exit;
 	<div class="wrapper" id="wrapper-endorsed-footer">
 		<div class="container" id="endorsed-footer">
 			<div class="row">
-				<div class="col-md">
-					<div class="title">
-						<h1>AzCaNE&nbsp;</h1>
-						<a class="title-subunit-name " href="https://azcane.qa.rtd.asu.edu" title="The Center for an Arizona Carbon-Neutral Economy home page">The Center for an Arizona Carbon-Neutral Economy</a>
-					</div>
+				<div class="col-md" id="endorsed-logo">
+					<a href="<?php echo site_url(); ?>"><img src="/wp-content/themes/AzCaNE-WP-Child-Theme/dist/img/Azcane+Logo+Transparent-05.png" alt="The Center for an Arizona Carbon-Neutral Economy" data-src="/wp-content/themes/AzCaNE-WP-Child-Theme/dist/img/Azcane+Logo+Transparent-05.png" decoding="async" class=" ls-is-cached lazyloaded" data-eio-rwidth="733" data-eio-rheight="292"></a>
 				</div>
 				<div class="col-md" id="social-media">
 					<div class="social-media-wrapper">
