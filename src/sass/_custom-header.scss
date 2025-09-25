@@ -8,4 +8,7 @@ main#skip-to-content {
     a.nav-item-selected::after, .nav-list li > a::after, .nav-list li:hover > a::after {
         background-image: linear-gradient(to right, transparent 0.5%, #ED7440 0.5%);
     }
+    .title-subunit-name {
+        color: transparent;
+    }
 }
